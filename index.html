@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Document</title>
+</head>
+<body>
+
+   <header>
+    
+    <div class="firstrow">
+        <div class="leftheader">
+            <div class="divider">
+            <img src="assets/line.svg" alt="Linie">
+        </div>
+            <img src="assets/greenlogo.jpg" alt="Logo grün">
+            <p> <a href="index.html">
+                <span> Bank Spoldzielczy</span><br>
+                w Lubaczowie</a>
+            </p>
+        </div>
+
+        <nav>
+            <a href="#" class="menu-open hide-desktop"><img src="assets/Union.png" alt="Menu open"></a>
+            <ul class=>
+                <li>
+            <a href="#" class="menu-close hide-desktop"><img src="assets/closemenu.png" alt="closeBtn"></a>        
+            <p><a href="Onas.html">O nas</a></p>
+            <p><a href="FAQ.html">FAQ</a></p>
+            <p><a href="Kontakt.html">Kontakt</a></p>
+            <p><a href="Kontakt.html"><span><img src="assets/Phone-icon.png" alt="Tel Logo"></span>Skontaktuj się z nami</a></p>
+        </li>
+            </ul>
+            
+        </nav>
+    </div>
+
+   </header>
+   <script>
+    const menu = document.querySelector('nav ul');
+    const menuBtn = document.querySelector('.menu-open');
+    const closeBtn = document.querySelector('.menu-close');
+
+    menuBtn.addEventListener('click' , () => {
+        menu.classList.add('open')
+    })
+
+    closeBtn.addEventListener('click' , () => {
+        menu.classList.remove('open')
+    })
+</script>
+</body>
+</html>

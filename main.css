@@ -1,0 +1,168 @@
+.hide-mobile{
+    display: none;
+}
+body{
+    margin: 3%;
+    
+}
+
+.firstrow{
+    display: flex;
+    justify-content: space-between;
+}
+
+.leftheader{
+
+    .divider{
+        img{width: 50%;
+            visibility: visible;
+            margin-right: px;
+        }
+    }
+    img{width:15%;
+        height: 11%;
+    display: flex;
+    text-align: center;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    }
+    p{
+        span{font-size: 20px;
+        font-weight: lighter;
+        font-family: 'Arial Narrow', Arial, sans-serif;
+        text-decoration: none;
+        }
+        a{text-decoration: none;
+        color: black;}
+        
+    }
+    display: flex;
+    text-align: left;
+    margin-left: 5%;
+}
+
+.menu-open{
+    height: 50px;
+    margin-right: 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.menu-close{
+    display: flex;
+    height: 50px;
+    margin-right: 20px;
+    margin-top: 20px;
+    justify-content: right;
+
+
+}
+
+
+nav ul{
+    
+    background-color: #E06933;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    margin: 0;
+    list-style: none;
+    width: 38%;
+    text-align: right;
+    padding: 1em;
+    transform: translatex(100%);
+    transition: transform 0.5s ease-in-out;
+
+ 
+    li{
+        margin:2em 0;
+        color: white;
+        text-decoration: none;
+        &:nth-of-type(1){
+            margin-bottom: 5em;
+            margin-right: 1em;
+        }
+        a{
+            text-align: center;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 0.9rem;
+            font-family: Arial, Helvetica, sans-serif;
+
+            &:hover{
+                color: rgb(49, 38, 17);
+                text-decoration: underline;
+            }
+            
+        }
+    }
+}
+
+.open{
+    transform: translateX(0%);
+}
+
+
+@media (min-width : 750px) {
+
+    .hide-desktop{
+    display: none;
+    }
+    .hide-mobile{
+        display: block;
+    }
+    
+    .firstrow{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .leftheader{
+
+        .divider{
+            img{width: 50%;
+                visibility: visible;
+                
+            }
+        }
+        img{width:15%;
+            height: 11%;
+        display: flex;
+        text-align: center;
+        margin-right: 10px;
+        margin-top: 10px;
+        margin-left: 10px;
+        }
+        p{
+            span{font-size: 20px;
+            font-weight: lighter;
+            font-family: 'Arial Narrow', Arial, sans-serif;
+            text-decoration: none;
+            }
+            a{text-decoration: none;
+            color: black;}
+            
+        }
+        
+        text-align: left;
+        margin-left: 17%;
+    }
+
+
+    .divider{
+    gap: 1em;
+    }
+   
+    nav ul{
+        position: unset;
+    }
+    }
+
+
+
+
+
