@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Document</title>
+</head>
+<body>
+
+   <header>
+    
+    <div class="firstrow">
+        <div class="leftheader">
+            <div class="divider">
+            <img src="assets/line.svg" alt="Linie">
+        </div>
+            <img src="assets/greenlogo.jpg" alt="Logo grün">
+            <p> <a href="index.html">
+                <span> Bank Spoldzielczy</span><br>
+                w Lubaczowie</a>
+            </p>
+        </div>
+
+        <nav>
+            <a href="#" class="menu-open hide-desktop"><img src="assets/Union.png" alt="Menu open"></a>
+            <ul class=>
+                
+           <li> <a href="#" class="menu-close hide-desktop"><img src="assets/closemenu.png" alt="closeBtn"></a></li>        
+            <li><a href="Onas.html">O nas</a></li>
+            <li><a href="FAQ.html">FAQ</a></li>
+            <li><a href="Kontakt.html">Kontakt</a></li>
+            <li><a href="Kontakt.html"><span><img src="assets/Phone-icon.png" alt="Tel Logo"></span>Skontaktuj się z nami</a></li>
+       
+            </ul>
+            
+        </nav>
+    </div>
+
+   </header>
+
+   <div class="firstpart">
+    <div class="abovepic">
+        <p>Wybierz ubezpieczenie:</p>
+        <a href="Kontakt.html">Od nieruchomości</a>
+        <a href="Kontakt.html">Komunikacyjne</a>
+        <a href="Kontakt.html">Na życie</a>
+        <a href="Kontakt.html">Turystyczne</a>
+    </div>
+    <div class="pic">
+        <img src="assets/hands.jpg" alt="bild Hand">
+        <span>Ubezpieczenie nieruchomości</span>
+        <h1>Ochrona finansowa Twojej nieruchomości na wypadek niefortunnych zdarzeń losowych</h1>
+        <p>Dostosuj zakres ubezpieczenia do swoich indywidualnych potrzeb, gwarantując sobie oraz najbliższym odpowiednie odszkodowanie za zniszczony lub utracony majątek.</p>
+    </div>
+
+
+   </div>
+
+   <script>
+    const menu = document.querySelector('nav ul');
+    const menuBtn = document.querySelector('.menu-open');
+    const closeBtn = document.querySelector('.menu-close');
+
+    menuBtn.addEventListener('click' , () => {
+        menu.classList.add('open')
+    })
+
+    closeBtn.addEventListener('click' , () => {
+        menu.classList.remove('open')
+    })
+</script>
+</body>
+</html>
