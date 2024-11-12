@@ -119,17 +119,18 @@ nav ul{
     .firstrow{
         display: flex;
         justify-content: space-between;
+        margin-bottom: -25%;
     }
 
     .leftheader{
-
-        .divider{
-            img{width: 50%;
-                visibility: visible;
-                
+margin-bottom: 0;
+        
+            img{width: .8em;
+               display: flex;
+                margin-bottom: 0%;
             }
-        }
-        img{width:15%;
+        
+        img{width:auto;
             height: 11%;
         display: flex;
         text-align: center;
@@ -159,6 +160,64 @@ nav ul{
    
     nav ul{
         position: unset;
+        background: none;
+        display: flex;
+        gap: 3em;
+        height: auto;
+        width: auto;
+        transform: translateX(0%);
+        margin-bottom: 0%;
+
+        li a{
+            font-size: 1.1rem;
+            background: none;
+            color: black;
+            display: flex;
+            img{
+                display: flex;
+                
+            }
+
+        }
+
+    }
+
+    .firstpart{
+        margin-top: 0;
+        
+        .abovepic{
+            display: flex;
+            justify-content: center;
+            
+        
+            p{
+                font-size: 1.2em;
+                font-weight: bold;
+                margin-right: 10em;
+            }
+            a{
+                display: flex;
+                padding: 3em;
+                text-decoration: none;
+                color:  black;
+                background-color: #E06933;
+                color: white;
+                
+                
+            }
+
+        }
+        .pic{
+            display: flex;
+            justify-content: center;
+            span{
+                display: inline;
+                color: lightgoldenrodyellow;
+                width: auto;
+                font-size: 2rem;
+                
+            }
+        }
     }
     }
 
