@@ -106,6 +106,21 @@ nav ul{
     transform: translateX(0%);
 }
 
+.firstpart{
+    display: flex;
+    margin-top: 0%;
+    .pic{
+        img{
+            display: flex;
+            max-width: 94%;
+            position: absolute;
+            top: 20%;
+            justify-content: center;
+          
+        }
+    }
+}
+
 
 @media (min-width : 750px) {
 
@@ -188,21 +203,23 @@ margin-bottom: 0;
         .abovepic{
             display: flex;
             justify-content: center;
-            
+            margin-left: 19%;
         
             p{
                 font-size: 1.2em;
                 font-weight: bold;
                 margin-right: 10em;
             }
-            a{
+            .column{
+                
+                a{
                 display: flex;
                 padding: 3em;
                 text-decoration: none;
                 color:  black;
                 background-color: #E06933;
                 color: white;
-                
+                }
                 
             }
 
@@ -210,12 +227,53 @@ margin-bottom: 0;
         .pic{
             display: flex;
             justify-content: center;
-            span{
-                display: inline;
-                color: lightgoldenrodyellow;
-                width: auto;
-                font-size: 2rem;
+            a{
+                img{
+                    display: flex;
+                    position: absolute;
+                    top: 73%;
+                    left: 65%;
+                }
+            }
+            img{
+                display: flex;
+                position: absolute;
+                max-width: 100%;
+                top:33%;
+                margin-right: 56%;
+            }
+            h1{
+                font-weight: lighter;
+                display: flex;
+                margin-right: 90%;
+                top: 63%;
+                position: absolute;
+                color: orange;
+                width: 20%;
+                font-size: 1.4rem;
+                font-stretch: extra-expanded;
+                font-family: Arial, Helvetica, sans-serif;
                 
+            }
+            h2{
+                display: flex;
+                position: absolute;
+                max-width: 45%;
+                font-size: 2.1rem;
+                color: white;
+                top: 69%;
+                left: 24.5%;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            p{
+                display: flex;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: .8rem;
+                position: absolute;
+                color: white;
+                max-width: 34%;
+                top: 83%;
+                left: 24.5%;
             }
         }
     }
