@@ -1,0 +1,103 @@
+.firstpart{
+    margin-top: 0;
+    display: flex;
+    position: relative;
+    .abovepic{
+        display: flex;
+        position: relative;
+        justify-content: center;
+        margin-left: 19%;
+    
+        p{
+            font-size: 1.2em;
+            font-weight: bold;
+            margin-right: 10em;
+        }
+        .column{
+            display: flex;
+            position: relative;
+            a{
+            display: flex;
+            padding: 3em;
+            text-decoration: none;
+            color:  black;
+            background-color: #E06933;
+            color: white;
+            max-height: 20px;
+            max-width: auto;
+
+            }
+            
+        }
+
+    }
+    .pic{
+        display: flex;
+        
+        
+        
+        a{
+            img{
+                display: flex;
+                position: absolute;
+                top: 380%;
+                left: 65%;
+            }
+        }
+        img{
+            display: flex;
+            position: absolute;
+            max-width: 100%;
+            top:60%;
+            left: 19%;
+            
+            
+        }
+        h1{
+            font-weight: lighter;
+            display: flex;
+            left: 24.5%;
+            top: 300%;
+            position: absolute;
+            color: orange;
+            width: 20%;
+            font-size: 1.4rem;
+            font-stretch: extra-expanded;
+            font-family: Arial, Helvetica, sans-serif;
+            
+        }
+        h2{
+            display: flex;
+            position: absolute;
+            max-width: 45%;
+            font-size: 2.1rem;
+            color: white;
+            top: 350%;
+            left: 24.5%;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        p{
+            display: flex;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: .8rem;
+            position: absolute;
+            color: white;
+            max-width: 34%;
+            top: 450%;
+            left: 24.5%;
+        }
+    }
+}
+.underpic{
+    
+    
+
+        h1{
+            display: flex;
+          
+            position: absolute;
+            top: 100%;
+            left: 43%;
+
+        }
+}
