@@ -194,9 +194,116 @@ margin-bottom: 0;
             }
 
         }
-
     }
+.firstpart{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    padding: 1%;
+    order: 1;
+    p{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.2em;
+        margin-right: 50px;
+    }
+    .abovepic{
+        display: flex;
+        columns: 1;
+        position: absolute;
+        top: -10%;
+        justify-content: center;
+        .row{display: flex;
+        border: white;
+        border-style: solid;
+        border-width: 1em;
+        border-radius: 16%;
+        background-color: #E06933;
+        padding: 24px;
+        border-radius: 26px;
+        max-width: 75%;
+        justify-content: center;
 
+        a{  display: flex;
+            text-decoration: none;
+            text-align: center;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 0.8em;
+            justify-content: center;
+        }
+        
+    }
+        
+    }
+}
+
+    .pic{
+        display: flex;
+        position: relative;
+        justify-content: center;
+        
+        
+        
+        img{display: flex;
+            position: absolute;
+            width: 80%;
+            
+
+        }
+        a{ img{
+            display: flex;
+            position: absolute;
+            
+            width: 3%;
+            left: 74%;
+            
+            
+        }}
+        h1{
+            display: flex;
+            position: absolute;
+            top: 310%;
+            left: 15%;
+            font-size: 1.5em;
+            font-weight: lighter;
+            font-family: Arial, Helvetica, sans-serif;
+            text-decoration: none;
+            margin-top: 10%;
+            color: #E06933;
+            
+        }
+        h2{
+            display: flex;
+            position: absolute;
+            top: 570%;
+            left: 15%;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 2.3em;
+            max-width: 55%;
+            font-weight: bold;
+        }
+        p{
+        display: flex;
+        position: relative;
+        top: 800%;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        
+
+            
+
+
+        }
+
+        
+    }
+.underpic{
+    display: flex;
+    
+    position: absolute;
+    justify-content: center;
+    top: 100%;
     
     }
 
