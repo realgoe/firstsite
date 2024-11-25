@@ -347,28 +347,36 @@ margin-bottom: 0;
             
         }
 
-        .img-orange-text{
-            
-            p{
-                span{
-
-                }
-            }
+        }
+        .img-orange-text span{
+            color: black;
+            background-color: #E06933;
+        }
+        .img-orange-text p{
+            color: black;
+            background: #E06933;
         }
     }
 
     .picrightrow{
         display: flex;
         position: absolute;
-        justify-content: center;
-        
+        justify-content:center;
+        top: 160%;
+        span{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1.8em;
+            color:  blue;
+        }
         p{
             display: flex;
             font-family: Arial, Helvetica, sans-serif;
-            max-width: 30%;
+            max-width: 20%;
+            text-align: left;
+            color:  rgb(0, 90, 146);
+            
         }
        
         
     }
-}
 }
