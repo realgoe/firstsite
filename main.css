@@ -349,12 +349,30 @@ margin-bottom: 0;
 
         }
         .img-orange-text span{
-            color: black;
+            color:  white;
             background-color: #E06933;
+            display: flex;
+            position: absolute;
+            top: -90%;
+            width: 208px;
+            height: 63px;
+            align-items: center;
+            font-size: 13px;
+            padding-left: 30px;
+            left: 0%;
+            
         }
         .img-orange-text p{
-            color: black;
+            color:  white;
             background: #E06933;
+            width: 228px;
+            display: flex;
+            position: absolute;
+            top: 10%;
+            font-size: 30px;
+            height: 70px;
+            justify-content: center;
+            padding-left: 10px;
         }
     }
 
